@@ -15,6 +15,11 @@ public class SampleTestCase {
         Assert.assertTrue("Sum is incorrect. Expected 4, got " + sum, sum == 4);
     }
 
+    @Test
+    public void testMultiply() {
+        Assert.assertTrue(App01.multiplyNum(2,3) == 6);
+    }
+
     @After
     public void tearDown() {
         System.out.println("After test");
