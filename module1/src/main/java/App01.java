@@ -6,4 +6,8 @@ public class App01 {
     public static int sumOfNumbers(int a, int b) {
         return a + b;
     }
+
+    public static int multiplyNum( int a, int b) {
+        return a*b;
+    }
 }
